@@ -335,7 +335,6 @@
     <script>
         $.getJSON("articles.json", function (data) {
 						var articlesElm = $("#articles");
-					console.log('data: ', data)
         		data.forEach(function(a) {
 								articlesElm.append("<li>" + a + "</li>");
 						});
