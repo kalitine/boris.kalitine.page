@@ -1,0 +1,19 @@
+{
+  "name": "boris.kalitine.page",
+  "version": "1.0.0",
+  "description": "Read Only by HTML5 UP html5up.net | @n33co Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.html",
+  "scripts": {
+    "push": "scp -r ./assets ./images index.html articles.json rakphil:/home/caddy/www/boris.kalitine.page"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalitine/boris.kalitine.page.git"
+  },
+  "author": "philippe kalitine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalitine/boris.kalitine.page/issues"
+  },
+  "homepage": "https://github.com/kalitine/boris.kalitine.page#readme"
+}
